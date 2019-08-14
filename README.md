@@ -1,5 +1,8 @@
 # Hugo-flex theme example
 
+NOTE: In general, themes are compatible with a range of Hugo versions.
+Currently, hugo-flex is compatible with Hugo 0.55-0.56.
+
 This is an example site for [hugo-flex theme](https://github.com/de-souza/hugo-flex).
 Hugo-Flex is a JavaScript-free theme with PageSpeed 100.
 This is important for having a really fast website without using AMP.
