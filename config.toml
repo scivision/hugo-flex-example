@@ -8,7 +8,7 @@ theme = "hugo-flex"
 publishDir = "docs"
 
 [permalinks]
-blog = "/:filename/"
+posts = "/:filename/"
 pages = "/:filename/"
 
 [params]
