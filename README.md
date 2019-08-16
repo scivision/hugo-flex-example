@@ -1,14 +1,11 @@
 # Hugo-flex theme example
 
-NOTE: In general, themes are compatible with a range of Hugo versions.
-Currently, hugo-flex is compatible with Hugo 0.55-0.56.
-
-This is an example site for [hugo-flex theme](https://github.com/de-souza/hugo-flex).
-Hugo-Flex is a JavaScript-free theme with PageSpeed 100.
+This is an example from scratch using [hugo-flex theme](https://github.com/de-souza/hugo-flex).
+Hugo-Flex is a JavaScript-free theme with Google PageSpeed 100.
 This is important for having a really fast website without using AMP.
 I have built a top 100,000 website (https://www.scivision.dev) using hugo-flex.
 
-The advantages of static site generators like Hugo include that you write pages in very simple Markdown .md syntax in the [content/blog](./content/blog) directory, and images and other files you desire to serve under [static/](./static) directory.
+The advantages of static site generators like Hugo include that you write pages in very simple Markdown .md syntax in the [content/posts](./content/posts) directory, and images and other files you desire to serve under [static/](./static) directory.
 Static pages (like [about.md](./content/about.md)) go in [content/](./content) directory itself.
 
 Images, Twitter tweets, YouTube videos, etc. are inlined via Hugo
