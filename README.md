@@ -3,10 +3,13 @@
 This is an example from scratch using [hugo-flex theme](https://github.com/de-souza/hugo-flex).
 Hugo-Flex is a JavaScript-free theme with Google PageSpeed 100.
 This is important for having a really fast website without using AMP.
-I have built a top 100,000 website (https://www.scivision.dev) using hugo-flex.
+We have built a top 100,000 website (https://www.scivision.dev) using hugo-flex.
 
-The advantages of static site generators like Hugo include that you write pages in very simple Markdown .md syntax in the [content/posts](./content/posts) directory, and images and other files you desire to serve under [static/](./static) directory.
-Static pages (like [about.md](./content/about.md)) go in [content/](./content) directory itself.
+Static site generators like Hugo build an arbitrarily simple or complex website from:
+
+* simple Markdown .md syntax in the [content/posts](./content/posts) directory
+* images and other files under [static/](./static) directory
+* static pages like about.md go in [content/](./content) directory
 
 Images, Twitter tweets, YouTube videos, etc. are inlined via Hugo
 [shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes).
@@ -35,14 +38,37 @@ For advanced / higher traffic pages (1 million + views/year) you might consider
 [Netlify](https://www.scivision.dev/github-pages-to-netlify/).
 Most individual users can simply use GitHub Pages.
 
-A simple way is to use the [deploy.py](./deploy.py) script.
-It builds the pages on your laptop, adds them to Git history and pushes to GitHub Pages.
-For moderate to large websites, consider continuous deployment methods like
-[Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/).
+### deploy Hugo to GitHub Pages
 
-1. Configure GitHub Pages Settings for your repo to have Source: "master branch /docs folder"
-2. run "python deploy.py"
-3. browse to https://username.github.io/hugo-flex-example to see your demo site.
+For GitHub Pages with Hugo, build the HTML on your laptop.
+
+One-time: configure GitHub Pages Settings for your repo to have Source: "master branch /docs folder".
+
+Each time website is updated, from the top-level website repo directory:
+
+1. Build site, with HTML output to docs/ per config.yaml:
+
+  ```sh
+  hugo --source .
+  ```
+2. Add changes to git.
+
+  ```sh
+  git add docs
+  ```
+3. Commit changes.
+
+  ```sh
+  git commit -m "updated website"
+  ```
+4. Push site to GitHub Pages
+
+  ```sh
+  git push
+  ```
+
+
+Browse to https://username.github.io/hugo-flex-example to see your demo site.
 
 When satisfied with the demo site, rename the repository to username.github.io and then your visitors can simply browse https://username.github.io
 

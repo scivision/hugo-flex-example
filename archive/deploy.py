@@ -20,10 +20,12 @@ if sys.version_info < (3, 5):
 hugo = shutil.which("hugo")
 if not hugo:
     raise SystemExit("Could not find Hugo")
+assert isinstance(hugo, str)
 
 git = shutil.which("git")
 if not hugo:
     raise SystemExit("Could not find Git")
+assert isinstance(git, str)
 
 print("Deploying updates to GitHub Pages")
 
