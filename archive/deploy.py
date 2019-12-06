@@ -23,7 +23,7 @@ if not hugo:
 assert isinstance(hugo, str)
 
 git = shutil.which("git")
-if not hugo:
+if not git:
     raise SystemExit("Could not find Git")
 assert isinstance(git, str)
 
