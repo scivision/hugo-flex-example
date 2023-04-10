@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Advanced users should instead use Netlify or other CD system.
 
@@ -8,14 +8,10 @@ However, this method below is simple for small / beginning users.
 """
 import subprocess
 import shutil
-import sys
 from datetime import datetime
 from pathlib import Path
 
 R = Path(__file__).parent.resolve()
-
-if sys.version_info < (3, 5):
-    raise SystemExit("Python >= 3.5 required")
 
 hugo = shutil.which("hugo")
 if not hugo:
