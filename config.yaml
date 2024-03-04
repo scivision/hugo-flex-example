@@ -42,7 +42,7 @@ params:
 
 
 menu:
-  nav:
+  main:
     - name: About
       url: about/
       weight: 1
