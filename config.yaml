@@ -33,8 +33,6 @@ params:
   netlify:
     honeypot: false     # Set to true to add honeypot field in contact form
     recaptcha: false    # Set to true to add recaptcha challenge in contact form
-  css:
-    - custom.css
   # js:                 # Uncomment to add custom JS from a list of files
   #   - js/foo.js
   #   - bar.js
