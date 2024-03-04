@@ -1,6 +1,6 @@
 # Hugo-flex theme example
 
-This is an example from scratch using [hugo-flex theme](https://github.com/de-souza/hugo-flex).
+This is an example from scratch using [hugo-flex theme](https://github.com/ldeso/hugo-flex).
 Hugo-Flex is a JavaScript-free theme with Google PageSpeed 100.
 This is important for having a really fast website without using AMP.
 We have built a top 500,000 website (https://www.scivision.dev) using hugo-flex.
