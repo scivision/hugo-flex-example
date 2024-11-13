@@ -5,7 +5,6 @@ languageCode: en-us
 pygmentsCodeFences: true
 enableRobotsTXT: true
 theme: hugo-flex
-publishDir: docs
 
 permalinks:
   posts: '/:filename/'
