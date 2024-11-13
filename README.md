@@ -23,7 +23,7 @@ Images, Twitter tweets, YouTube videos, etc. are inlined via Hugo
     ```bash
     hugo serve
     ```
-5. Edit the website configuration in config.toml (or config.yaml). You may have to restart `hugo serve` if you make major changes.
+5. Edit the website configuration in hugo.yaml. Restart `hugo serve` if you make major changes.
 
 ## Deploying
 
