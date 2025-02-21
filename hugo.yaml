@@ -1,4 +1,4 @@
-baseURL: 'https://username.github.io/'
+baseURL: https://username.github.io/
 title: Hugo-Flex Demo Site
 author: Jane Doe
 languageCode: en-us
@@ -7,8 +7,8 @@ enableRobotsTXT: true
 theme: hugo-flex
 
 permalinks:
-  posts: '/:filename/'
-  pages: '/:filename/'
+  posts: /:filename/
+  pages: /:filename/
 
 params:
   color: black
@@ -23,7 +23,6 @@ params:
   divider: '\2015\2015' # Set to false to remove divider below posts on homepage
   schema: true
   opengraph: true
-  twittercards: true
   summaries: false
   utterances:
     repo:               # Set to Utterances repo URL to add Utterances comments
