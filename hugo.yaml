@@ -7,8 +7,8 @@ enableRobotsTXT: true
 theme: hugo-flex
 
 permalinks:
-  posts: /:filename/
-  pages: /:filename/
+  posts: /:slugorcontentbasename/
+  pages: /:slugorcontentbasename/
 
 params:
   color: black
