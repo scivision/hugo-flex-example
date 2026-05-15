@@ -2,8 +2,8 @@
 
 This is an example from scratch using [hugo-flex theme](https://github.com/ldeso/hugo-flex).
 Hugo-Flex is a JavaScript-free theme with Google PageSpeed 100.
-This is important for having a really fast website without using AMP.
-We have built a top 500,000 website (https://www.scivision.dev) using hugo-flex.
+This is important for having a maximally fast website without using AMP.
+We build a website with thousands of pages / posts at about 1 millisecond per page generation time on a laptop.
 
 Static site generators like Hugo build an arbitrarily simple or complex website from:
 
@@ -21,7 +21,7 @@ Images, Twitter tweets, YouTube videos, etc. are inlined via Hugo
 3. `git clone --recurse-submodules` your copy to your laptop and change to that directory.
 4. Run Hugo and point your web browser to http://localhost:1313
     ```bash
-    hugo serve
+    hugo serve -O
     ```
 5. Edit the website configuration in hugo.yaml. Restart `hugo serve` if you make major changes.
 

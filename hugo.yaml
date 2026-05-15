@@ -1,7 +1,7 @@
 baseURL: https://username.github.io/
 title: Hugo-Flex Demo Site
 author: Jane Doe
-languageCode: en-us
+locale: en-us
 pygmentsCodeFences: true
 enableRobotsTXT: true
 theme: hugo-flex
